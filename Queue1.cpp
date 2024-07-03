@@ -92,22 +92,22 @@ ostream& operator<<(ostream& os, const Queue& queue)
 	return os;
 }
 
-int main() {
-	Queue queue(20);
-	cout << "Queue is Empty: " << queue.IsEmpty() << endl;
-	cout << "Queue is Full: " << queue.IsFull() << endl;
-	queue.Add(8)
-		.Add(5)
-		.Add(7)
-		.Add(3);
-//	queue << 5 << 3 << 4 << 7;
-	cout << queue;
-	int i = 10;
-	while (i > 0) {
-		cout << "Extracted: " << queue.Extract() << endl;
-		cout << queue;
-		i--;
-	}
-
-	return 0;
-}
+//int main() {
+//	Queue queue(20);
+//	cout << "Queue is Empty: " << queue.IsEmpty() << endl;
+//	cout << "Queue is Full: " << queue.IsFull() << endl;
+//	queue.Add(8)
+//		.Add(5)
+//		.Add(7)
+//		.Add(3);
+////	queue << 5 << 3 << 4 << 7;
+//	cout << queue;
+//	int i = 10;
+//	while (i > 0) {
+//		cout << "Extracted: " << queue.Extract() << endl;
+//		cout << queue;
+//		i--;
+//	}
+//
+//	return 0;
+//}
